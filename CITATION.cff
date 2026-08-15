@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper using the metadata below."
+title: "Stable Behavior, Limited Variation: Persona Validity in LLM Agents for Urban Sentiment Perception"
+type: software
+authors:
+  - family-names: "da Silva"
+    given-names: "Neemias B"
+  - family-names: "Minetto"
+    given-names: "Rodrigo"
+  - family-names: "Silver"
+    given-names: "Daniel"
+  - family-names: "Silva"
+    given-names: "Thiago H"
+version: "arXiv:2604.28048"
+date-released: 2026-04-30
+doi: "10.48550/arXiv.2604.28048"
+url: "https://arxiv.org/abs/2604.28048"
+preferred-citation:
+  type: conference-paper
+  title: "Stable Behavior, Limited Variation: Persona Validity in LLM Agents for Urban Sentiment Perception"
+  authors:
+    - family-names: "da Silva"
+      given-names: "Neemias B"
+    - family-names: "Minetto"
+      given-names: "Rodrigo"
+    - family-names: "Silver"
+      given-names: "Daniel"
+    - family-names: "Silva"
+      given-names: "Thiago H"
+  year: 2026
+  collection-title: "Proc. of IEEE DCOSS-IoT-UrbCom"
+  location:
+    name: "Reykjavik, Iceland"
+  doi: "10.48550/arXiv.2604.28048"
+  url: "https://arxiv.org/abs/2604.28048"

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minds-lab-utfpr.github.io/MLLMs-persona-evaluation/sitemap.xml
