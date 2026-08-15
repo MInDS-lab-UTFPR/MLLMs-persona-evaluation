@@ -36,8 +36,14 @@ npm run verify:pages
 empty, or cased differently than the file on disk.
 
 Deployment is automated by [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml).
-In the GitHub repository, select **Settings → Pages → Source → GitHub Actions**,
-then push to `main` or run the workflow manually.
+
+**Enable Pages before the first run.** In the GitHub repository, select
+**Settings → Pages → Source → GitHub Actions**, then push to `main` or re-run
+the workflow. Until that setting exists the `configure-pages` step fails with
+`Get Pages site failed … Not Found`, because the repository has no Pages site to
+configure. The action can create one through its `enablement` input, but only
+when given a personal access token or GitHub App token — it cannot do it with
+the workflow's own `GITHUB_TOKEN`, so the setting is a one-time manual step.
 
 If this directory does not yet have the remote configured:
 
