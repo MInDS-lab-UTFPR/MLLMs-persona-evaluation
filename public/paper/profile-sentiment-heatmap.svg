@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1252 1436" width="1252" height="1436"
+     role="img" aria-labelledby="heatmap-title heatmap-description">
+<title id="heatmap-title">Predicted sentiment by persona profile</title>
+<desc id="heatmap-description">A 24 by 5 heatmap. Rows are persona profiles ordered by their combined Negative and Slightly Negative share; columns are the five predicted sentiment labels. Every profile puts roughly 0.40 to 0.47 of its annotations on Negative and 0.21 to 0.45 on Positive, while the three intermediate labels stay near or below 0.16. Low income profiles fill the top of the ordering and High income profiles the bottom, so economic status separates the profiles more than gender, political orientation, or personality. Cell values are proportions with the half-width of a 95 percent Wilson interval.</desc>
+<g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+  <rect width="1252" height="1436" fill="#ffffff" />
+
+  <!-- Cells -->
+  <g shape-rendering="crispEdges">
+    <rect x="372" y="96" width="116" height="52" fill="#fff2a9" />
+    <text x="430" y="119" fill="#262626" font-size="16">0.46</text>
+    <text x="430" y="137" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="96" width="116" height="52" fill="#c82227" />
+    <text x="546" y="119" fill="#ffffff" font-size="16">0.07</text>
+    <text x="546" y="137" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="96" width="116" height="52" fill="#d93429" />
+    <text x="662" y="119" fill="#ffffff" font-size="16">0.11</text>
+    <text x="662" y="137" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="96" width="116" height="52" fill="#c21c27" />
+    <text x="778" y="119" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="137" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="96" width="116" height="52" fill="#fdb264" />
+    <text x="894" y="119" fill="#262626" font-size="16">0.31</text>
+    <text x="894" y="137" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="148" width="116" height="52" fill="#fff5ae" />
+    <text x="430" y="171" fill="#262626" font-size="16">0.47</text>
+    <text x="430" y="189" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="148" width="116" height="52" fill="#c21c27" />
+    <text x="546" y="171" fill="#ffffff" font-size="16">0.06</text>
+    <text x="546" y="189" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="148" width="116" height="52" fill="#e64f35" />
+    <text x="662" y="171" fill="#ffffff" font-size="16">0.15</text>
+    <text x="662" y="189" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="148" width="116" height="52" fill="#bd1726" />
+    <text x="778" y="171" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="189" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="148" width="116" height="52" fill="#fb9d59" />
+    <text x="894" y="171" fill="#262626" font-size="16">0.27</text>
+    <text x="894" y="189" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="200" width="116" height="52" fill="#feeda0" />
+    <text x="430" y="223" fill="#262626" font-size="16">0.44</text>
+    <text x="430" y="241" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="200" width="116" height="52" fill="#cd2727" />
+    <text x="546" y="223" fill="#ffffff" font-size="16">0.08</text>
+    <text x="546" y="241" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="200" width="116" height="52" fill="#c51f27" />
+    <text x="662" y="223" fill="#ffffff" font-size="16">0.06</text>
+    <text x="662" y="241" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="200" width="116" height="52" fill="#c61f27" />
+    <text x="778" y="223" fill="#ffffff" font-size="16">0.07</text>
+    <text x="778" y="241" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="200" width="116" height="52" fill="#fdc776" />
+    <text x="894" y="223" fill="#262626" font-size="16">0.35</text>
+    <text x="894" y="241" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="252" width="116" height="52" fill="#feec9f" />
+    <text x="430" y="275" fill="#262626" font-size="16">0.44</text>
+    <text x="430" y="293" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="252" width="116" height="52" fill="#cd2627" />
+    <text x="546" y="275" fill="#ffffff" font-size="16">0.08</text>
+    <text x="546" y="293" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="252" width="116" height="52" fill="#d32c27" />
+    <text x="662" y="275" fill="#ffffff" font-size="16">0.09</text>
+    <text x="662" y="293" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="252" width="116" height="52" fill="#c21c27" />
+    <text x="778" y="275" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="293" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="252" width="116" height="52" fill="#fdbd6e" />
+    <text x="894" y="275" fill="#262626" font-size="16">0.33</text>
+    <text x="894" y="293" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="304" width="116" height="52" fill="#fff3aa" />
+    <text x="430" y="327" fill="#262626" font-size="16">0.46</text>
+    <text x="430" y="345" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="304" width="116" height="52" fill="#c21c27" />
+    <text x="546" y="327" fill="#ffffff" font-size="16">0.06</text>
+    <text x="546" y="345" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="304" width="116" height="52" fill="#e85538" />
+    <text x="662" y="327" fill="#ffffff" font-size="16">0.16</text>
+    <text x="662" y="345" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="304" width="116" height="52" fill="#bf1927" />
+    <text x="778" y="327" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="345" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="304" width="116" height="52" fill="#fa9b58" />
+    <text x="894" y="327" fill="#262626" font-size="16">0.27</text>
+    <text x="894" y="345" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="356" width="116" height="52" fill="#feea9c" />
+    <text x="430" y="379" fill="#262626" font-size="16">0.43</text>
+    <text x="430" y="397" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="356" width="116" height="52" fill="#cf2827" />
+    <text x="546" y="379" fill="#ffffff" font-size="16">0.08</text>
+    <text x="546" y="397" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="356" width="116" height="52" fill="#e24631" />
+    <text x="662" y="379" fill="#ffffff" font-size="16">0.14</text>
+    <text x="662" y="397" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="356" width="116" height="52" fill="#c31d27" />
+    <text x="778" y="379" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="397" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="356" width="116" height="52" fill="#fca65d" />
+    <text x="894" y="379" fill="#262626" font-size="16">0.29</text>
+    <text x="894" y="397" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="408" width="116" height="52" fill="#feeb9e" />
+    <text x="430" y="431" fill="#262626" font-size="16">0.44</text>
+    <text x="430" y="449" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="408" width="116" height="52" fill="#cc2527" />
+    <text x="546" y="431" fill="#ffffff" font-size="16">0.08</text>
+    <text x="546" y="449" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="408" width="116" height="52" fill="#d73027" />
+    <text x="662" y="431" fill="#ffffff" font-size="16">0.10</text>
+    <text x="662" y="449" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="408" width="116" height="52" fill="#c92327" />
+    <text x="778" y="431" fill="#ffffff" font-size="16">0.07</text>
+    <text x="778" y="449" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="408" width="116" height="52" fill="#fdb567" />
+    <text x="894" y="431" fill="#262626" font-size="16">0.31</text>
+    <text x="894" y="449" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="460" width="116" height="52" fill="#fee99a" />
+    <text x="430" y="483" fill="#262626" font-size="16">0.43</text>
+    <text x="430" y="501" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="460" width="116" height="52" fill="#cf2827" />
+    <text x="546" y="483" fill="#ffffff" font-size="16">0.08</text>
+    <text x="546" y="501" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="460" width="116" height="52" fill="#ce2727" />
+    <text x="662" y="483" fill="#ffffff" font-size="16">0.08</text>
+    <text x="662" y="501" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="460" width="116" height="52" fill="#c41e27" />
+    <text x="778" y="483" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="501" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="460" width="116" height="52" fill="#fdc373" />
+    <text x="894" y="483" fill="#262626" font-size="16">0.34</text>
+    <text x="894" y="501" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="512" width="116" height="52" fill="#feec9f" />
+    <text x="430" y="535" fill="#262626" font-size="16">0.44</text>
+    <text x="430" y="553" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="512" width="116" height="52" fill="#c72027" />
+    <text x="546" y="535" fill="#ffffff" font-size="16">0.07</text>
+    <text x="546" y="553" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="512" width="116" height="52" fill="#e34a33" />
+    <text x="662" y="535" fill="#ffffff" font-size="16">0.14</text>
+    <text x="662" y="553" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="512" width="116" height="52" fill="#c51e27" />
+    <text x="778" y="535" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="553" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="512" width="116" height="52" fill="#fca75e" />
+    <text x="894" y="535" fill="#262626" font-size="16">0.29</text>
+    <text x="894" y="553" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="564" width="116" height="52" fill="#fff0a6" />
+    <text x="430" y="587" fill="#262626" font-size="16">0.45</text>
+    <text x="430" y="605" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="564" width="116" height="52" fill="#be1827" />
+    <text x="546" y="587" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="605" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="564" width="116" height="52" fill="#dc3b2c" />
+    <text x="662" y="587" fill="#ffffff" font-size="16">0.12</text>
+    <text x="662" y="605" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="564" width="116" height="52" fill="#c41e27" />
+    <text x="778" y="587" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="605" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="564" width="116" height="52" fill="#fdb668" />
+    <text x="894" y="587" fill="#262626" font-size="16">0.32</text>
+    <text x="894" y="605" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="616" width="116" height="52" fill="#fff4ac" />
+    <text x="430" y="639" fill="#262626" font-size="16">0.46</text>
+    <text x="430" y="657" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="616" width="116" height="52" fill="#b81226" />
+    <text x="546" y="639" fill="#ffffff" font-size="16">0.04</text>
+    <text x="546" y="657" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="616" width="116" height="52" fill="#f7814c" />
+    <text x="662" y="639" fill="#ffffff" font-size="16">0.23</text>
+    <text x="662" y="657" fill="#ffffff" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="720" y="616" width="116" height="52" fill="#c31d27" />
+    <text x="778" y="639" fill="#ffffff" font-size="16">0.06</text>
+    <text x="778" y="657" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="616" width="116" height="52" fill="#f57346" />
+    <text x="894" y="639" fill="#ffffff" font-size="16">0.21</text>
+    <text x="894" y="657" fill="#ffffff" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="668" width="116" height="52" fill="#feeea3" />
+    <text x="430" y="691" fill="#262626" font-size="16">0.45</text>
+    <text x="430" y="709" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="668" width="116" height="52" fill="#be1827" />
+    <text x="546" y="691" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="709" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="668" width="116" height="52" fill="#f7834d" />
+    <text x="662" y="691" fill="#ffffff" font-size="16">0.23</text>
+    <text x="662" y="709" fill="#ffffff" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="720" y="668" width="116" height="52" fill="#bf1927" />
+    <text x="778" y="691" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="709" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="668" width="116" height="52" fill="#f57748" />
+    <text x="894" y="691" fill="#ffffff" font-size="16">0.22</text>
+    <text x="894" y="709" fill="#ffffff" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="720" width="116" height="52" fill="#feeda1" />
+    <text x="430" y="743" fill="#262626" font-size="16">0.44</text>
+    <text x="430" y="761" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="720" width="116" height="52" fill="#b81226" />
+    <text x="546" y="743" fill="#ffffff" font-size="16">0.04</text>
+    <text x="546" y="761" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="720" width="116" height="52" fill="#db382b" />
+    <text x="662" y="743" fill="#ffffff" font-size="16">0.11</text>
+    <text x="662" y="761" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="720" width="116" height="52" fill="#b71226" />
+    <text x="778" y="743" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="761" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="720" width="116" height="52" fill="#fed17e" />
+    <text x="894" y="743" fill="#262626" font-size="16">0.37</text>
+    <text x="894" y="761" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="772" width="116" height="52" fill="#feea9b" />
+    <text x="430" y="795" fill="#262626" font-size="16">0.43</text>
+    <text x="430" y="813" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="772" width="116" height="52" fill="#be1826" />
+    <text x="546" y="795" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="813" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="772" width="116" height="52" fill="#df402e" />
+    <text x="662" y="795" fill="#ffffff" font-size="16">0.13</text>
+    <text x="662" y="813" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="772" width="116" height="52" fill="#b20c26" />
+    <text x="778" y="795" fill="#ffffff" font-size="16">0.03</text>
+    <text x="778" y="813" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="772" width="116" height="52" fill="#fed07e" />
+    <text x="894" y="795" fill="#262626" font-size="16">0.37</text>
+    <text x="894" y="813" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="824" width="116" height="52" fill="#fee18c" />
+    <text x="430" y="847" fill="#262626" font-size="16">0.40</text>
+    <text x="430" y="865" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="824" width="116" height="52" fill="#c82227" />
+    <text x="546" y="847" fill="#ffffff" font-size="16">0.07</text>
+    <text x="546" y="865" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="824" width="116" height="52" fill="#b81226" />
+    <text x="662" y="847" fill="#ffffff" font-size="16">0.04</text>
+    <text x="662" y="865" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="824" width="116" height="52" fill="#bf1927" />
+    <text x="778" y="847" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="865" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="824" width="116" height="52" fill="#feec9e" />
+    <text x="894" y="847" fill="#262626" font-size="16">0.44</text>
+    <text x="894" y="865" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="876" width="116" height="52" fill="#fee594" />
+    <text x="430" y="899" fill="#262626" font-size="16">0.42</text>
+    <text x="430" y="917" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="876" width="116" height="52" fill="#c01a27" />
+    <text x="546" y="899" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="917" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="876" width="116" height="52" fill="#e75136" />
+    <text x="662" y="899" fill="#ffffff" font-size="16">0.15</text>
+    <text x="662" y="917" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="876" width="116" height="52" fill="#b71226" />
+    <text x="778" y="899" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="917" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="876" width="116" height="52" fill="#fdc171" />
+    <text x="894" y="899" fill="#262626" font-size="16">0.34</text>
+    <text x="894" y="917" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="928" width="116" height="52" fill="#fee08c" />
+    <text x="430" y="951" fill="#262626" font-size="16">0.40</text>
+    <text x="430" y="969" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="928" width="116" height="52" fill="#c61f27" />
+    <text x="546" y="951" fill="#ffffff" font-size="16">0.07</text>
+    <text x="546" y="969" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="928" width="116" height="52" fill="#bd1726" />
+    <text x="662" y="951" fill="#ffffff" font-size="16">0.05</text>
+    <text x="662" y="969" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="928" width="116" height="52" fill="#b71126" />
+    <text x="778" y="951" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="969" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="928" width="116" height="52" fill="#feefa4" />
+    <text x="894" y="951" fill="#262626" font-size="16">0.45</text>
+    <text x="894" y="969" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="980" width="116" height="52" fill="#fee18c" />
+    <text x="430" y="1003" fill="#262626" font-size="16">0.40</text>
+    <text x="430" y="1021" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="980" width="116" height="52" fill="#c31d27" />
+    <text x="546" y="1003" fill="#ffffff" font-size="16">0.06</text>
+    <text x="546" y="1021" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="980" width="116" height="52" fill="#d73127" />
+    <text x="662" y="1003" fill="#ffffff" font-size="16">0.10</text>
+    <text x="662" y="1021" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="980" width="116" height="52" fill="#b91326" />
+    <text x="778" y="1003" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="1021" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="980" width="116" height="52" fill="#fede8a" />
+    <text x="894" y="1003" fill="#262626" font-size="16">0.40</text>
+    <text x="894" y="1021" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1032" width="116" height="52" fill="#fee28f" />
+    <text x="430" y="1055" fill="#262626" font-size="16">0.41</text>
+    <text x="430" y="1073" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1032" width="116" height="52" fill="#c01a27" />
+    <text x="546" y="1055" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="1073" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1032" width="116" height="52" fill="#cb2427" />
+    <text x="662" y="1055" fill="#ffffff" font-size="16">0.08</text>
+    <text x="662" y="1073" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1032" width="116" height="52" fill="#bc1626" />
+    <text x="778" y="1055" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="1073" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1032" width="116" height="52" fill="#fee594" />
+    <text x="894" y="1055" fill="#262626" font-size="16">0.42</text>
+    <text x="894" y="1073" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1084" width="116" height="52" fill="#fee08b" />
+    <text x="430" y="1107" fill="#262626" font-size="16">0.40</text>
+    <text x="430" y="1125" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1084" width="116" height="52" fill="#c41e27" />
+    <text x="546" y="1107" fill="#ffffff" font-size="16">0.06</text>
+    <text x="546" y="1125" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1084" width="116" height="52" fill="#c41e27" />
+    <text x="662" y="1107" fill="#ffffff" font-size="16">0.06</text>
+    <text x="662" y="1125" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1084" width="116" height="52" fill="#bc1626" />
+    <text x="778" y="1107" fill="#ffffff" font-size="16">0.05</text>
+    <text x="778" y="1125" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1084" width="116" height="52" fill="#fee99b" />
+    <text x="894" y="1107" fill="#262626" font-size="16">0.43</text>
+    <text x="894" y="1125" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1136" width="116" height="52" fill="#fee492" />
+    <text x="430" y="1159" fill="#262626" font-size="16">0.41</text>
+    <text x="430" y="1177" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1136" width="116" height="52" fill="#bc1626" />
+    <text x="546" y="1159" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="1177" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1136" width="116" height="52" fill="#e75237" />
+    <text x="662" y="1159" fill="#ffffff" font-size="16">0.16</text>
+    <text x="662" y="1177" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1136" width="116" height="52" fill="#b81226" />
+    <text x="778" y="1159" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="1177" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1136" width="116" height="52" fill="#fdc575" />
+    <text x="894" y="1159" fill="#262626" font-size="16">0.35</text>
+    <text x="894" y="1177" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1188" width="116" height="52" fill="#fee08c" />
+    <text x="430" y="1211" fill="#262626" font-size="16">0.40</text>
+    <text x="430" y="1229" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1188" width="116" height="52" fill="#c21c27" />
+    <text x="546" y="1211" fill="#ffffff" font-size="16">0.06</text>
+    <text x="546" y="1229" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1188" width="116" height="52" fill="#dd3c2d" />
+    <text x="662" y="1211" fill="#ffffff" font-size="16">0.12</text>
+    <text x="662" y="1229" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1188" width="116" height="52" fill="#b81326" />
+    <text x="778" y="1211" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="1229" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1188" width="116" height="52" fill="#fed784" />
+    <text x="894" y="1211" fill="#262626" font-size="16">0.38</text>
+    <text x="894" y="1229" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1240" width="116" height="52" fill="#fee28e" />
+    <text x="430" y="1263" fill="#262626" font-size="16">0.41</text>
+    <text x="430" y="1281" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1240" width="116" height="52" fill="#bf1927" />
+    <text x="546" y="1263" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="1281" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1240" width="116" height="52" fill="#ce2727" />
+    <text x="662" y="1263" fill="#ffffff" font-size="16">0.08</text>
+    <text x="662" y="1281" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1240" width="116" height="52" fill="#c72127" />
+    <text x="778" y="1263" fill="#ffffff" font-size="16">0.07</text>
+    <text x="778" y="1281" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1240" width="116" height="52" fill="#fedd88" />
+    <text x="894" y="1263" fill="#262626" font-size="16">0.39</text>
+    <text x="894" y="1281" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="372" y="1292" width="116" height="52" fill="#fee28e" />
+    <text x="430" y="1315" fill="#262626" font-size="16">0.41</text>
+    <text x="430" y="1333" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+    <rect x="488" y="1292" width="116" height="52" fill="#bf1927" />
+    <text x="546" y="1315" fill="#ffffff" font-size="16">0.05</text>
+    <text x="546" y="1333" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="604" y="1292" width="116" height="52" fill="#c31d27" />
+    <text x="662" y="1315" fill="#ffffff" font-size="16">0.06</text>
+    <text x="662" y="1333" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="720" y="1292" width="116" height="52" fill="#bb1526" />
+    <text x="778" y="1315" fill="#ffffff" font-size="16">0.04</text>
+    <text x="778" y="1333" fill="#ffffff" font-size="13" opacity="0.92">±0.01</text>
+    <rect x="836" y="1292" width="116" height="52" fill="#feec9f" />
+    <text x="894" y="1315" fill="#262626" font-size="16">0.44</text>
+    <text x="894" y="1333" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
+  </g>
+  <!-- Seaborn's linewidths=0.5 white separators -->
+  <g stroke="#ffffff" stroke-width="1.6" shape-rendering="crispEdges">
+    <line x1="372" y1="96" x2="952" y2="96" />
+    <line x1="372" y1="148" x2="952" y2="148" />
+    <line x1="372" y1="200" x2="952" y2="200" />
+    <line x1="372" y1="252" x2="952" y2="252" />
+    <line x1="372" y1="304" x2="952" y2="304" />
+    <line x1="372" y1="356" x2="952" y2="356" />
+    <line x1="372" y1="408" x2="952" y2="408" />
+    <line x1="372" y1="460" x2="952" y2="460" />
+    <line x1="372" y1="512" x2="952" y2="512" />
+    <line x1="372" y1="564" x2="952" y2="564" />
+    <line x1="372" y1="616" x2="952" y2="616" />
+    <line x1="372" y1="668" x2="952" y2="668" />
+    <line x1="372" y1="720" x2="952" y2="720" />
+    <line x1="372" y1="772" x2="952" y2="772" />
+    <line x1="372" y1="824" x2="952" y2="824" />
+    <line x1="372" y1="876" x2="952" y2="876" />
+    <line x1="372" y1="928" x2="952" y2="928" />
+    <line x1="372" y1="980" x2="952" y2="980" />
+    <line x1="372" y1="1032" x2="952" y2="1032" />
+    <line x1="372" y1="1084" x2="952" y2="1084" />
+    <line x1="372" y1="1136" x2="952" y2="1136" />
+    <line x1="372" y1="1188" x2="952" y2="1188" />
+    <line x1="372" y1="1240" x2="952" y2="1240" />
+    <line x1="372" y1="1292" x2="952" y2="1292" />
+    <line x1="372" y1="1344" x2="952" y2="1344" />
+    <line x1="372" y1="96" x2="372" y2="1344" />
+    <line x1="488" y1="96" x2="488" y2="1344" />
+    <line x1="604" y1="96" x2="604" y2="1344" />
+    <line x1="720" y1="96" x2="720" y2="1344" />
+    <line x1="836" y1="96" x2="836" y2="1344" />
+    <line x1="952" y1="96" x2="952" y2="1344" />
+  </g>
+
+  <!-- Row labels -->
+    <text x="356" y="127" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Progressive  ·  Analytical</text>
+    <text x="356" y="179" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Conservative  ·  Analytical</text>
+    <text x="356" y="231" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Progressive  ·  Empathetic</text>
+    <text x="356" y="283" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Conservative  ·  Empathetic</text>
+    <text x="356" y="335" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Conservative  ·  Analytical</text>
+    <text x="356" y="387" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Progressive  ·  Pragmatic</text>
+    <text x="356" y="439" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Conservative  ·  Empathetic</text>
+    <text x="356" y="491" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Progressive  ·  Empathetic</text>
+    <text x="356" y="543" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Progressive  ·  Pragmatic</text>
+    <text x="356" y="595" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Progressive  ·  Analytical</text>
+    <text x="356" y="647" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Conservative  ·  Pragmatic</text>
+    <text x="356" y="699" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Conservative  ·  Pragmatic</text>
+    <text x="356" y="751" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Conservative  ·  Analytical</text>
+    <text x="356" y="803" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Conservative  ·  Analytical</text>
+    <text x="356" y="855" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Conservative  ·  Empathetic</text>
+    <text x="356" y="907" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Conservative  ·  Pragmatic</text>
+    <text x="356" y="959" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Progressive  ·  Empathetic</text>
+    <text x="356" y="1011" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Progressive  ·  Pragmatic</text>
+    <text x="356" y="1063" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Progressive  ·  Analytical</text>
+    <text x="356" y="1115" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Conservative  ·  Empathetic</text>
+    <text x="356" y="1167" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  High income  ·  Conservative  ·  Pragmatic</text>
+    <text x="356" y="1219" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Progressive  ·  Pragmatic</text>
+    <text x="356" y="1271" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Progressive  ·  Analytical</text>
+    <text x="356" y="1323" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Progressive  ·  Empathetic</text>
+
+  <!-- Column labels -->
+    <text x="430" y="1374" font-size="16" font-weight="600" fill="#202124">Negative</text>
+    <text x="546" y="1374" font-size="16" font-weight="600" fill="#202124">Slightly</text>
+    <text x="546" y="1393" font-size="16" font-weight="600" fill="#202124">Negative</text>
+    <text x="662" y="1374" font-size="16" font-weight="600" fill="#202124">Neutral</text>
+    <text x="778" y="1374" font-size="16" font-weight="600" fill="#202124">Slightly</text>
+    <text x="778" y="1393" font-size="16" font-weight="600" fill="#202124">Positive</text>
+    <text x="894" y="1374" font-size="16" font-weight="600" fill="#202124">Positive</text>
+  <text x="662" y="1424" font-size="17" font-weight="600" fill="#202124">Predicted sentiment</text>
+
+  <!-- Axis titles -->
+  <text x="356" y="54" text-anchor="end" font-size="17" font-weight="600" fill="#202124">Persona profile</text>
+  <text x="356" y="76" text-anchor="end" font-size="14" fill="#5f6368">gender · economic · political · personality</text>
+
+  <!-- Colour bar -->
+  <defs>
+    <linearGradient id="rdylgn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#006837" />
+      <stop offset="5%" stop-color="#0d8044" />
+      <stop offset="10%" stop-color="#1a9850" />
+      <stop offset="15%" stop-color="#40ab5a" />
+      <stop offset="20%" stop-color="#66bd63" />
+      <stop offset="25%" stop-color="#86cb67" />
+      <stop offset="30%" stop-color="#a6d96a" />
+      <stop offset="35%" stop-color="#c0e47b" />
+      <stop offset="40%" stop-color="#d9ef8b" />
+      <stop offset="45%" stop-color="#ecf7a5" />
+      <stop offset="50%" stop-color="#ffffbf" />
+      <stop offset="55%" stop-color="#fff0a5" />
+      <stop offset="60%" stop-color="#fee08b" />
+      <stop offset="65%" stop-color="#fec776" />
+      <stop offset="70%" stop-color="#fdae61" />
+      <stop offset="75%" stop-color="#f98e52" />
+      <stop offset="80%" stop-color="#f46d43" />
+      <stop offset="85%" stop-color="#e64f35" />
+      <stop offset="90%" stop-color="#d73027" />
+      <stop offset="95%" stop-color="#be1827" />
+      <stop offset="100%" stop-color="#a50026" />
+    </linearGradient>
+  </defs>
+  <rect x="1026" y="96" width="26" height="1248" fill="url(#rdylgn)" stroke="#dadce0" stroke-width="1" />
+    <line x1="1052" y1="1344" x2="1059" y2="1344" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="1349" text-anchor="start" font-size="14" fill="#5f6368">0.0</text>
+    <line x1="1052" y1="1094.4" x2="1059" y2="1094.4" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="1099.4" text-anchor="start" font-size="14" fill="#5f6368">0.2</text>
+    <line x1="1052" y1="844.8" x2="1059" y2="844.8" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="849.8" text-anchor="start" font-size="14" fill="#5f6368">0.4</text>
+    <line x1="1052" y1="595.2" x2="1059" y2="595.2" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="600.2" text-anchor="start" font-size="14" fill="#5f6368">0.6</text>
+    <line x1="1052" y1="345.5999999999999" x2="1059" y2="345.5999999999999" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="350.5999999999999" text-anchor="start" font-size="14" fill="#5f6368">0.8</text>
+    <line x1="1052" y1="96" x2="1059" y2="96" stroke="#5f6368" stroke-width="1.2" />
+    <text x="1065" y="101" text-anchor="start" font-size="14" fill="#5f6368">1.0</text>
+  <text transform="translate(1130, 720) rotate(90)" font-size="15" fill="#3c4043">Proportion of profile's annotations</text>
+</g>
+</svg>
