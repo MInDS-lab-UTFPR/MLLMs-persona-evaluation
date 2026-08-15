@@ -234,8 +234,6 @@ for (const jsPath of artifactFiles.filter((file) => file.endsWith(".js"))) {
   }
 }
 
-// Catch public-base URLs embedded in RSC payloads, Vite dependency maps,
-// manifests, XML, and text metadata—not only URLs represented by live HTML tags.
 const escapedOrigin = baseUrl.origin.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const sameOriginPattern = new RegExp(`${escapedOrigin}\\/[^\\s"'<>\\\\)]*`, "g");
 for (const textPath of artifactFiles.filter((file) =>
@@ -245,8 +243,6 @@ for (const textPath of artifactFiles.filter((file) =>
   const text = fs.readFileSync(textPath, "utf8");
   const sourceUrl = new URL(relativeTextPath, baseUrl);
   for (const match of text.matchAll(sameOriginPattern)) {
-    // A bare directory URL is a base prefix the runtime concatenates onto, not
-    // a resource of its own: the framework chunks carry one for `_next/`.
     if (match[0].endsWith("/")) continue;
     checkReference(match[0], relativeTextPath, sourceUrl, "embedded same-site resource");
   }
@@ -270,9 +266,6 @@ if (fs.existsSync(viteManifestPath)) {
   }
 }
 
-// The export is only useful if index.html actually boots the client bundle and
-// the copy-citation button with it, so require a chunk reference under the
-// configured base path rather than trusting that the directory exists.
 const basePathPrefix = baseUrl.pathname.replace(/\/$/, "");
 const chunkPattern = new RegExp(
   `${basePathPrefix.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\/_next\\/static\\/[^"']+\\.js`,

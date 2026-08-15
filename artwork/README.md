@@ -7,8 +7,11 @@ them directly.
 
 ## `og-social-card.svg` → `public/og.png`
 
-The 1200 × 630 Open Graph preview. Composes the paper's title, headline finding,
-and study counts beside a compact redrawing of figure 1, in the same palette.
+The 1200 × 630 Open Graph preview, on the sibling project page's grid: the
+title, the finding in one breath, three study counts, and a compact redrawing of
+figure 1 in the same palette. Everything around the figure is deliberately
+sparse — a preview is read at thumbnail size, so prose that needs a second look
+belongs on the page. The figure keeps its own labels.
 
 ```sh
 rsvg-convert -w 1200 -h 630 -o ../public/og.png og-social-card.svg

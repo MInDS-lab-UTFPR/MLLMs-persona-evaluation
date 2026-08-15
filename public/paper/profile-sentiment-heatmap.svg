@@ -6,7 +6,6 @@
 <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
   <rect width="1252" height="1436" fill="#ffffff" />
 
-  <!-- Cells -->
   <g shape-rendering="crispEdges">
     <rect x="372" y="96" width="116" height="52" fill="#fff2a9" />
     <text x="430" y="119" fill="#262626" font-size="16">0.46</text>
@@ -369,7 +368,6 @@
     <text x="894" y="1315" fill="#262626" font-size="16">0.44</text>
     <text x="894" y="1333" fill="#262626" font-size="13" opacity="0.92">±0.02</text>
   </g>
-  <!-- Seaborn's linewidths=0.5 white separators -->
   <g stroke="#ffffff" stroke-width="1.6" shape-rendering="crispEdges">
     <line x1="372" y1="96" x2="952" y2="96" />
     <line x1="372" y1="148" x2="952" y2="148" />
@@ -404,7 +402,6 @@
     <line x1="952" y1="96" x2="952" y2="1344" />
   </g>
 
-  <!-- Row labels -->
     <text x="356" y="127" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Progressive  ·  Analytical</text>
     <text x="356" y="179" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  Low income  ·  Conservative  ·  Analytical</text>
     <text x="356" y="231" text-anchor="end" font-size="15" fill="#3c4043">Female  ·  Low income  ·  Progressive  ·  Empathetic</text>
@@ -430,7 +427,6 @@
     <text x="356" y="1271" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Progressive  ·  Analytical</text>
     <text x="356" y="1323" text-anchor="end" font-size="15" fill="#3c4043">Male  ·  High income  ·  Progressive  ·  Empathetic</text>
 
-  <!-- Column labels -->
     <text x="430" y="1374" font-size="16" font-weight="600" fill="#202124">Negative</text>
     <text x="546" y="1374" font-size="16" font-weight="600" fill="#202124">Slightly</text>
     <text x="546" y="1393" font-size="16" font-weight="600" fill="#202124">Negative</text>
@@ -440,11 +436,9 @@
     <text x="894" y="1374" font-size="16" font-weight="600" fill="#202124">Positive</text>
   <text x="662" y="1424" font-size="17" font-weight="600" fill="#202124">Predicted sentiment</text>
 
-  <!-- Axis titles -->
   <text x="356" y="54" text-anchor="end" font-size="17" font-weight="600" fill="#202124">Persona profile</text>
   <text x="356" y="76" text-anchor="end" font-size="14" fill="#5f6368">gender · economic · political · personality</text>
 
-  <!-- Colour bar -->
   <defs>
     <linearGradient id="rdylgn" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#006837" />

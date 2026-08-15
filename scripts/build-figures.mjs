@@ -1,17 +1,4 @@
 #!/usr/bin/env node
-/**
- * Emits the two page figures as hand-authored SVG into public/paper/.
- *
- *   figure-1-experimental-design.svg  — the three-phase pipeline, transcribed
- *       from the paper's TikZ source (mopal palette, dashed ablation branch).
- *   profile-sentiment-heatmap.svg     — RQ1a, redrawn from the same numbers the
- *       notebook plots: scripts/data/profile-sentiment.json, recomputed from
- *       outputs/annotations_baseline.jsonl with the notebook's Wilson interval.
- *
- * Text is emitted as <text>, not glyph outlines, so the files stay small and
- * remain searchable. Both use a system font stack: the SVGs are referenced with
- * <img>, which cannot pull a webfont in.
- */
 
 import { mkdir, writeFile } from "node:fs/promises";
 import { readFileSync } from "node:fs";
@@ -24,16 +11,14 @@ const outDir = resolve(here, "..", "public", "paper");
 const SANS =
   "ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
-/* xcolor black!80 / black!55 / black!45, matching the TikZ styles. */
 const INK = "#333333";
 const INK_DASH = "#737373";
 const INK_ARROW_DASH = "#8c8c8c";
 
-/* \definecolor{mopal…} from the paper preamble. */
 const MOPAL1 = "#feeac9";
 const MOPAL2 = "#ffcdc9";
 const MOPAL4 = "#fd7979";
-const MOPAL1_35 = "#fff8ec"; // mopal1!35 over white
+const MOPAL1_35 = "#fff8ec";
 
 const esc = (value) =>
   String(value)
@@ -41,22 +26,17 @@ const esc = (value) =>
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
 
-// ── Figure 1: experimental design ───────────────────────────────────────────
-
-/* TikZ places nodes on a centimetre grid; 100 user units per centimetre keeps
-   the transcribed coordinates readable and the box proportions exact. */
 const U = 100;
 const X0 = 1.75;
 const Y0 = 3.2;
 const tx = (x) => Math.round((x + X0) * U);
 const ty = (y) => Math.round((Y0 - y) * U);
 
-const BOX_W = 3.0 * U; // minimum width 30mm
-const BOX_H = 1.4 * U; // minimum height 14mm
-const OVAL_RX = 1.4 * U; // minimum width 28mm
-const OVAL_RY = 0.6 * U; // minimum height 12mm
+const BOX_W = 3.0 * U;
+const BOX_H = 1.4 * U;
+const OVAL_RX = 1.4 * U;
+const OVAL_RY = 0.6 * U;
 
-/* `**…**` marks the \textbf runs the TikZ labels carry inside a smaller line. */
 function markup(text) {
   return esc(text).replace(
     /\*\*(.+?)\*\*/g,
@@ -64,8 +44,6 @@ function markup(text) {
   );
 }
 
-/* Each line carries its own baseline offset from the node centre, so a node can
-   mix a two-line bold title with a tighter block of small print. */
 function tspans(lines, cx, cy) {
   return lines
     .map((line) => {
@@ -95,7 +73,6 @@ function designFigure() {
     (dashed ? ` stroke-dasharray="9 7"` : "") +
     ` />`;
 
-  /* `|-` draws the vertical leg first, `-|` the horizontal leg first. */
   const connector = (d, color, dashed) =>
     `  <path d="${d}" fill="none" stroke="${color}" stroke-width="2.4" ` +
     `stroke-linejoin="round"` +
@@ -122,20 +99,17 @@ function designFigure() {
 </defs>
 <g font-family="${SANS}" text-anchor="middle">
 
-  <!-- Phase headings -->
   <g font-size="27" font-weight="700" fill="${INK}">
     <text x="${tx(0)}" y="${ty(2.8)}">Phase 1: Persona Design</text>
     <text x="${tx(3.8)}" y="${ty(2.8)}">Phase 2: Annotation</text>
     <text x="${tx(7.6)}" y="${ty(2.8)}">Phase 3: Evaluation</text>
   </g>
 
-  <!-- Connectors, drawn under the nodes -->
 ${connector(`M ${right(phase1)} ${phase1.cy} V ${annot.cy} H ${left(annot) - 6}`, INK, false)}
 ${connector(`M ${right(phase1)} ${phase1.cy} V ${ablat.cy} H ${left(ablat) - 6}`, INK_ARROW_DASH, true)}
 ${connector(`M ${right(annot)} ${annot.cy} H ${evaluation.cx} V ${evaluation.cy - OVAL_RY - 6}`, INK, false)}
 ${connector(`M ${right(ablat)} ${ablat.cy} H ${evaluation.cx} V ${evaluation.cy + OVAL_RY + 6}`, INK_ARROW_DASH, true)}
 
-  <!-- Phase 1 -->
 ${box(phase1, MOPAL1, INK, false)}
   <text fill="${INK}" font-weight="700">
 ${tspans(
@@ -150,7 +124,6 @@ ${tspans(
 )}
   </text>
 
-  <!-- Phase 2, main branch -->
 ${box(annot, MOPAL2, INK, false)}
   <text fill="${INK}" font-weight="700">
 ${tspans(
@@ -165,7 +138,6 @@ ${tspans(
 )}
   </text>
 
-  <!-- Phase 2, ablation branch -->
 ${box(ablat, MOPAL1_35, INK_DASH, true)}
   <text fill="${INK_DASH}" font-weight="700">
 ${tspans(
@@ -180,7 +152,6 @@ ${tspans(
 )}
   </text>
 
-  <!-- Phase 3 -->
   <ellipse cx="${evaluation.cx}" cy="${evaluation.cy}" rx="${OVAL_RX}" ry="${OVAL_RY}"
            fill="${MOPAL4}" stroke="${INK}" stroke-width="2" />
   <text fill="#ffffff" font-weight="700" font-size="24">
@@ -195,7 +166,6 @@ ${tspans(
 )}
   </text>
 
-  <!-- Branch legend -->
   <g transform="translate(${evaluation.cx}, ${ty(-2.5)})">
     <line x1="-152" y1="-6" x2="-96" y2="-6" stroke="${INK}" stroke-width="2.4" />
     <text x="-88" y="0" text-anchor="start" font-size="20" fill="${INK}">main</text>
@@ -208,9 +178,6 @@ ${tspans(
 `;
 }
 
-// ── Figure 2: RQ1a profile × sentiment heatmap ──────────────────────────────
-
-/* ColorBrewer RdYlGn, the 11 anchor colours matplotlib interpolates between. */
 const RD_YL_GN = [
   [165, 0, 38],
   [215, 48, 39],
@@ -239,8 +206,6 @@ function rdYlGn(t) {
 const hex = ([r, g, b]) =>
   `#${[r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("")}`;
 
-/* seaborn picks the annotation colour from the cell's relative luminance,
-   flipping to white below 0.408. Reproduced so contrast matches the paper. */
 function relativeLuminance([r, g, b]) {
   const linear = [r, g, b]
     .map((channel) => channel / 255)
@@ -280,8 +245,6 @@ function heatmapFigure(data) {
     });
   });
 
-  /* Row labels keep the notebook's "gender | economic | political | personality"
-     order but split the pipe-separated fields so they stay readable at 15px. */
   const rowLabels = data.rows
     .map((row, r) => {
       const y = GRID_Y + r * CELL_H + CELL_H / 2 + 5;
@@ -329,11 +292,9 @@ function heatmapFigure(data) {
 <g font-family="${SANS}" text-anchor="middle">
   <rect width="${width}" height="${height}" fill="#ffffff" />
 
-  <!-- Cells -->
   <g shape-rendering="crispEdges">
 ${cells.join("\n")}
   </g>
-  <!-- Seaborn's linewidths=0.5 white separators -->
   <g stroke="#ffffff" stroke-width="1.6" shape-rendering="crispEdges">
 ${Array.from({ length: data.rows.length + 1 }, (_, r) => {
   const y = GRID_Y + r * CELL_H;
@@ -345,18 +306,14 @@ ${Array.from({ length: data.sentiments.length + 1 }, (_, c) => {
 }).join("\n")}
   </g>
 
-  <!-- Row labels -->
 ${rowLabels}
 
-  <!-- Column labels -->
 ${colLabels}
   <text x="${GRID_X + gridW / 2}" y="${height - 12}" font-size="17" font-weight="600" fill="#202124">Predicted sentiment</text>
 
-  <!-- Axis titles -->
   <text x="${LABEL_W - 16}" y="${GRID_Y - 42}" text-anchor="end" font-size="17" font-weight="600" fill="#202124">Persona profile</text>
   <text x="${LABEL_W - 16}" y="${GRID_Y - 20}" text-anchor="end" font-size="14" fill="#5f6368">gender · economic · political · personality</text>
 
-  <!-- Colour bar -->
   <defs>
     <linearGradient id="rdylgn" x1="0" y1="0" x2="0" y2="1">
 ${barStops}
@@ -369,8 +326,6 @@ ${barTicks}
 </svg>
 `;
 }
-
-// ── Emit ────────────────────────────────────────────────────────────────────
 
 const heatmapData = JSON.parse(
   readFileSync(resolve(here, "data", "profile-sentiment.json"), "utf8"),

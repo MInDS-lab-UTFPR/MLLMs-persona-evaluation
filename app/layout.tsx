@@ -25,11 +25,6 @@ export const metadata: Metadata = {
     "sentiment annotation",
     "LLM agents",
   ],
-  /* The icon comes from app/icon.png rather than a metadata entry: only the
-     file convention runs through the asset pipeline, and so only it picks up
-     `basePath`. A relative metadata href would break on the exported 404 page,
-     which resolves it from its own nested directory. */
-  /* Large image previews and untruncated snippets in search results. */
   robots: {
     index: true,
     follow: true,

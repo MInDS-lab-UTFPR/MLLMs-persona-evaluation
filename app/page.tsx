@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { CitationBlock } from "./InteractivePanels";
 
-/* Plain image elements keep public assets path-relative for GitHub Pages. */
 /* eslint-disable @next/next/no-img-element */
-/* Scrollable data regions are keyboard-focusable on narrow viewports. */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 
 export const dynamic = "force-static";
@@ -30,15 +28,13 @@ export const metadata: Metadata = {
     siteName: "Persona Validity in LLM Agents for Urban Sentiment Perception",
     locale: "en_US",
     publishedTime: "2026-04-30",
-    /* PNG, not the SVG figure: no major social crawler renders SVG for a link
-       preview, and the ones that do not simply fall back to no image at all. */
     images: [
       {
         url: `${siteUrl}og.png`,
         width: 1200,
         height: 630,
         type: "image/png",
-        alt: "Stable Behavior, Limited Variation — persona validity in LLM agents for urban sentiment perception, beside the three-phase experimental design: 1,200 persona-driven agents, a persona annotation branch with a dashed no-persona ablation, and a convergence and agreement analysis",
+        alt: "Stable Behavior, Limited Variation — personas make agents stable, they do not make them different, beside the experimental design: 1,200 agents, a persona branch with a dashed no-persona branch, and a convergence analysis",
       },
     ],
   },
@@ -70,8 +66,6 @@ export const metadata: Metadata = {
   },
 };
 
-/* Rendered as the abstract and reused verbatim in the structured data, so the
-   text a crawler indexes cannot drift from the text a reader sees. */
 const abstract =
   "Large Language Models (LLMs) are increasingly used as proxies for human " +
   "perception in urban analysis, yet it remains unclear whether persona prompting " +
@@ -108,8 +102,6 @@ const authors = [
   ["Thiago H Silva", "1,2"],
 ] as const;
 
-/* Macro F1 on the sigma = 3 agreement subsets, from the paper's evaluation
-   table. Held here so the table body and the alt text cannot drift apart. */
 const agreementRows = [
   {
     level: "Binary",

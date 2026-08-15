@@ -15,20 +15,17 @@
 </defs>
 <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
 
-  <!-- Phase headings -->
   <g font-size="27" font-weight="700" fill="#333333">
     <text x="175" y="40">Phase 1: Persona Design</text>
     <text x="555" y="40">Phase 2: Annotation</text>
     <text x="935" y="40">Phase 3: Evaluation</text>
   </g>
 
-  <!-- Connectors, drawn under the nodes -->
   <path d="M 315 320 V 170 H 379" fill="none" stroke="#333333" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#arrow)" />
   <path d="M 315 320 V 470 H 379" fill="none" stroke="#8c8c8c" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="9 7" marker-end="url(#arrow-dash)" />
   <path d="M 685 170 H 935 V 254" fill="none" stroke="#333333" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#arrow)" />
   <path d="M 685 470 H 935 V 386" fill="none" stroke="#8c8c8c" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="9 7" marker-end="url(#arrow-dash)" />
 
-  <!-- Phase 1 -->
   <rect x="15" y="250" width="300" height="140" rx="17" fill="#feeac9" stroke="#333333" stroke-width="2" />
   <text fill="#333333" font-weight="700">
       <tspan x="165" y="290" font-size="25">1,200 Persona-Driven</tspan>
@@ -37,7 +34,6 @@
       <tspan x="165" y="368" font-size="18" font-weight="400">Balanced full factorial</tspan>
   </text>
 
-  <!-- Phase 2, main branch -->
   <rect x="385" y="100" width="300" height="140" rx="17" fill="#ffcdc9" stroke="#333333" stroke-width="2" />
   <text fill="#333333" font-weight="700">
       <tspan x="535" y="140" font-size="25">Persona</tspan>
@@ -46,7 +42,6 @@
       <tspan x="535" y="218" font-size="18" font-weight="400">50 urban images</tspan>
   </text>
 
-  <!-- Phase 2, ablation branch -->
   <rect x="385" y="400" width="300" height="140" rx="17" fill="#fff8ec" stroke="#737373" stroke-width="2" stroke-dasharray="9 7" />
   <text fill="#737373" font-weight="700">
       <tspan x="535" y="440" font-size="25">No-Persona</tspan>
@@ -55,7 +50,6 @@
       <tspan x="535" y="518" font-size="18" font-weight="400">think=T / think=F</tspan>
   </text>
 
-  <!-- Phase 3 -->
   <ellipse cx="935" cy="320" rx="140" ry="60"
            fill="#fd7979" stroke="#333333" stroke-width="2" />
   <text fill="#ffffff" font-weight="700" font-size="24">
@@ -64,7 +58,6 @@
       <tspan x="935" y="350">Analysis</tspan>
   </text>
 
-  <!-- Branch legend -->
   <g transform="translate(935, 570)">
     <line x1="-152" y1="-6" x2="-96" y2="-6" stroke="#333333" stroke-width="2.4" />
     <text x="-88" y="0" text-anchor="start" font-size="20" fill="#333333">main</text>

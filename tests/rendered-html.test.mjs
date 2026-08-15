@@ -55,8 +55,6 @@ test("describes the article for crawlers with the abstract a reader sees", async
 test("previews the link with a raster card crawlers will actually render", async () => {
   const html = await page();
 
-  /* An SVG here is the failure that matters: the page still builds and deploys,
-     and the shared link silently comes out with no image. */
   const images = [...html.matchAll(/<meta property="og:image"[^>]*content="([^"]+)"/g)]
     .concat([...html.matchAll(/<meta name="twitter:image"[^>]*content="([^"]+)"/g)])
     .map((match) => match[1]);
@@ -83,6 +81,5 @@ test("ships both figures the page references", async () => {
     new URL("paper/profile-sentiment-heatmap.svg", outDir),
     "utf8",
   );
-  /* 24 profiles x 5 sentiment labels, with the notebook's own numbers. */
   assert.equal(heatmap.match(/±0\.\d\d</g)?.length, 120);
 });
