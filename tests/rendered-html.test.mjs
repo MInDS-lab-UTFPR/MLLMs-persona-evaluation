@@ -52,6 +52,25 @@ test("describes the article for crawlers with the abstract a reader sees", async
   assert.match(data.abstract, /limited annotation value in this setting\.$/);
 });
 
+test("previews the link with a raster card crawlers will actually render", async () => {
+  const html = await page();
+
+  /* An SVG here is the failure that matters: the page still builds and deploys,
+     and the shared link silently comes out with no image. */
+  const images = [...html.matchAll(/<meta property="og:image"[^>]*content="([^"]+)"/g)]
+    .concat([...html.matchAll(/<meta name="twitter:image"[^>]*content="([^"]+)"/g)])
+    .map((match) => match[1]);
+
+  assert.ok(images.length >= 2, "expected og:image and twitter:image");
+  for (const image of images) {
+    assert.match(image, /^https:\/\/.+\.(?:png|jpg|jpeg)$/, `${image} is not a raster URL`);
+  }
+
+  await access(new URL("og.png", outDir));
+  assert.match(html, /<meta property="og:image:width" content="1200"/);
+  assert.match(html, /<meta property="og:image:height" content="630"/);
+});
+
 test("ships both figures the page references", async () => {
   for (const figure of [
     "paper/figure-1-experimental-design.svg",

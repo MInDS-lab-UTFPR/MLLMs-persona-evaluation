@@ -30,10 +30,15 @@ export const metadata: Metadata = {
     siteName: "Persona Validity in LLM Agents for Urban Sentiment Perception",
     locale: "en_US",
     publishedTime: "2026-04-30",
+    /* PNG, not the SVG figure: no major social crawler renders SVG for a link
+       preview, and the ones that do not simply fall back to no image at all. */
     images: [
       {
-        url: `${siteUrl}paper/figure-1-experimental-design.svg`,
-        alt: "Three-phase experimental design: 1,200 persona-driven agents, persona annotation of 50 urban images with a no-persona ablation branch, and a convergence and agreement analysis",
+        url: `${siteUrl}og.png`,
+        width: 1200,
+        height: 630,
+        type: "image/png",
+        alt: "Stable Behavior, Limited Variation — persona validity in LLM agents for urban sentiment perception, beside the three-phase experimental design: 1,200 persona-driven agents, a persona annotation branch with a dashed no-persona ablation, and a convergence and agreement analysis",
       },
     ],
   },
@@ -42,7 +47,7 @@ export const metadata: Metadata = {
     title: fullTitle,
     description:
       "Personas make agents stable. They do not make them different.",
-    images: [`${siteUrl}paper/figure-1-experimental-design.svg`],
+    images: [`${siteUrl}og.png`],
   },
   other: {
     citation_title: fullTitle,
@@ -159,7 +164,7 @@ export default function Home() {
     ],
     url: siteUrl,
     mainEntityOfPage: { "@type": "WebPage", "@id": siteUrl },
-    image: `${siteUrl}paper/figure-1-experimental-design.svg`,
+    image: `${siteUrl}og.png`,
     publisher: { "@type": "Organization", name: "arXiv" },
     inLanguage: "en",
     sameAs: [paperUrl, doiUrl, codeUrl],
