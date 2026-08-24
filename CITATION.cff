@@ -33,3 +33,18 @@ preferred-citation:
     name: "Reykjavik, Iceland"
   doi: "10.48550/arXiv.2604.28048"
   url: "https://arxiv.org/abs/2604.28048"
+references:
+  - type: data
+    title: "UrbanPersona-60K: persona-conditioned sentiment annotations of urban scenes"
+    authors:
+      - family-names: "da Silva"
+        given-names: "Neemias B"
+      - family-names: "Minetto"
+        given-names: "Rodrigo"
+      - family-names: "Silver"
+        given-names: "Daniel"
+      - family-names: "Silva"
+        given-names: "Thiago H"
+    year: 2026
+    license: CC-BY-4.0
+    url: "https://huggingface.co/datasets/Neemias/UrbanPersona-60K"
