@@ -1,0 +1,13 @@
+.abstract-section {
+  background: var(--surface);
+  border-top: 1px solid var(--soft-line);
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.abstract-section p {
+  margin: 0;
+  color: #3c4043;
+  font-size: 0.98rem;
+  line-height: 1.85;
+  text-align: left;
+}

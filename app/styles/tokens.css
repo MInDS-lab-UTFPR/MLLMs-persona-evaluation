@@ -1,0 +1,20 @@
+:root {
+  --text: #202124;
+  --muted: #5f6368;
+  --line: #dadce0;
+  --soft-line: #e8eaed;
+  --surface: #f6f7f8;
+  --paper: #ffffff;
+  --link: #2767b1;
+  --link-dark: #174a84;
+  /* Green rather than the sibling site's teal, at the same depth, so the two
+     project pages read as a series without looking like the same paper. */
+  --accent: #126844;
+  --accent-soft: #e8f3ec;
+  --warm: #f3efe5;
+  --coral: #d95f4b;
+
+  --font-body: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-title: Georgia, "Times New Roman", serif;
+  --font-code: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}

@@ -1,0 +1,74 @@
+.method-section {
+  background: var(--surface);
+  border-top: 1px solid var(--soft-line);
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.study-numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 900px;
+  margin: 36px auto 42px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.study-numbers > div {
+  min-height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-right: 1px solid var(--line);
+  text-align: center;
+}
+
+.study-numbers > div:last-child {
+  border-right: 0;
+}
+
+.study-numbers strong {
+  color: var(--accent);
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.study-numbers span {
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 0.66rem;
+  line-height: 1.35;
+}
+
+.method-summary {
+  max-width: 820px;
+  margin: 0 auto;
+  color: #3c4043;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.dataset-note {
+  max-width: 820px;
+  margin: 22px auto 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 760px) {
+  .study-numbers {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .study-numbers > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .study-numbers > div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+}

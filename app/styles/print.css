@@ -1,0 +1,14 @@
+@media print {
+  .academic-nav,
+  .paper-actions,
+  .citation-toolbar,
+  .academic-footer {
+    display: none !important;
+  }
+
+  .paper-section,
+  .paper-hero {
+    padding: 24px 0;
+    background: white;
+  }
+}

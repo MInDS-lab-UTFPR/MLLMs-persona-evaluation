@@ -1,0 +1,28 @@
+.ethics-note {
+  padding: 30px 34px;
+  background: #fffaf2;
+  border: 1px solid #ead7b7;
+  border-left: 5px solid #c9822e;
+}
+
+.ethics-note h2 {
+  margin-bottom: 10px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+.ethics-note p {
+  margin: 0;
+  color: #514633;
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .ethics-note {
+    padding: 24px 22px;
+  }
+}

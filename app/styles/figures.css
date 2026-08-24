@@ -1,0 +1,31 @@
+.paper-figure {
+  margin: 0;
+}
+
+.paper-figure img {
+  display: block;
+  margin-inline: auto;
+}
+
+.paper-figure figcaption {
+  max-width: 920px;
+  margin: 20px auto 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.paper-figure figcaption strong {
+  color: var(--text);
+}
+
+.overview-figure img {
+  width: min(100%, 1000px);
+}
+
+/* The profile heatmap is 24 rows tall, so it is capped narrower than the
+   landscape figures to keep its cells from outgrowing the body text. */
+.heatmap-figure img {
+  width: min(100%, 940px);
+}

@@ -1,0 +1,60 @@
+.academic-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 0 max(24px, calc((100vw - 1050px) / 2));
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid var(--soft-line);
+  backdrop-filter: blur(12px);
+}
+
+.nav-title {
+  max-width: 420px;
+  overflow: hidden;
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav-title:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-sections {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+.nav-sections a {
+  color: var(--muted);
+}
+
+.nav-sections a:hover {
+  color: var(--link);
+}
+
+@media (max-width: 760px) {
+  .academic-nav {
+    min-height: 56px;
+    padding-inline: 15px;
+  }
+
+  .nav-title {
+    max-width: calc(100vw - 150px);
+  }
+
+  .nav-sections a:not(:last-child) {
+    display: none;
+  }
+}

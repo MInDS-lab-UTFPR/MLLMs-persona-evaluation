@@ -1,0 +1,12 @@
+.academic-footer {
+  padding: 42px 0;
+  color: var(--muted);
+  background: white;
+  border-top: 1px solid var(--soft-line);
+  text-align: center;
+}
+
+.academic-footer p {
+  margin: 4px 0;
+  font-size: 0.76rem;
+}

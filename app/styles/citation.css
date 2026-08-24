@@ -1,0 +1,83 @@
+.citation-section {
+  background: var(--surface);
+  border-top: 1px solid var(--soft-line);
+}
+
+.citation-block {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.citation-toolbar {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid var(--line);
+}
+
+.citation-toolbar > span {
+  color: var(--muted);
+  font-family: var(--font-code);
+  font-size: 0.66rem;
+  font-weight: 700;
+}
+
+.citation-toolbar > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.citation-toolbar a,
+.citation-toolbar button {
+  min-height: 30px;
+  padding: 0 11px;
+  color: var(--link);
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.66rem;
+  font-weight: 650;
+}
+
+.citation-toolbar a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.citation-toolbar a:hover {
+  text-decoration: none;
+}
+
+.citation-block pre {
+  margin: 0;
+  overflow-x: auto;
+  padding: 26px;
+  color: #30343a;
+  font-family: var(--font-code);
+  font-size: 0.72rem;
+  line-height: 1.75;
+  tab-size: 2;
+}
+
+@media (max-width: 480px) {
+  .citation-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 12px;
+  }
+
+  .citation-block pre {
+    padding: 20px 15px;
+    font-size: 0.62rem;
+  }
+}
