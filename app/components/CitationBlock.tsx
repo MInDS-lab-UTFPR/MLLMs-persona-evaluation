@@ -2,13 +2,9 @@
 
 import { useState } from "react";
 
-const bibtex = `@inproceedings{urbcom26-neemias,
-  title={Stable Behavior, Limited Variation: Persona Validity in LLM Agents for Urban Sentiment Perception},
-  author={Neemias B da Silva and Rodrigo Minetto and Daniel Silver and Thiago H Silva},
-  year={2026},
-  booktitle={Proc. of IEEE DCOSS-IoT-UrbCom},
-  address={Reykjavik, Iceland}
-}`;
+import { bibtex, citationDownloads } from "@/content/citation";
+
+const COPIED_LABEL_MS = 2200;
 
 export function CitationBlock() {
   const [copied, setCopied] = useState(false);
@@ -17,7 +13,7 @@ export function CitationBlock() {
     try {
       await navigator.clipboard.writeText(bibtex);
       setCopied(true);
-      window.setTimeout(() => setCopied(false), 2200);
+      window.setTimeout(() => setCopied(false), COPIED_LABEL_MS);
     } catch {
       setCopied(false);
     }
@@ -28,7 +24,7 @@ export function CitationBlock() {
       <div className="citation-toolbar">
         <span>BibTeX</span>
         <div>
-          <a href="citation.bib" download>
+          <a href={citationDownloads.bibtex} download>
             Download
           </a>
           <button type="button" onClick={copyCitation}>
