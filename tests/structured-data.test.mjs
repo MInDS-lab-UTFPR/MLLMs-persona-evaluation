@@ -24,7 +24,7 @@ test("describes the released annotations as a citable dataset", async () => {
   assert.ok(dataset, "expected a Dataset node");
 
   assert.equal(dataset.name, "UrbanPersona-60K");
-  assert.equal(dataset.url, "https://huggingface.co/datasets/Neemias/UrbanPersona-60K");
+  assert.equal(dataset.url, "https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K");
   assert.match(dataset.license, /creativecommons\.org\/licenses\/by\/4\.0/);
   assert.ok(dataset.description.length >= 50, "dataset needs a usable description");
 

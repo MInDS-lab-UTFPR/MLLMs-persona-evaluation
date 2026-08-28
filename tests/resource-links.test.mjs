@@ -8,7 +8,7 @@ const RESOURCES = [
   "https://arxiv.org/abs/2604.28048",
   "https://doi.org/10.48550/arXiv.2604.28048",
   "https://github.com/neemiasbsilva/mllm-persona-evaluation",
-  "https://huggingface.co/datasets/Neemias/UrbanPersona-60K",
+  "https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K",
 ];
 
 test("links every resource the paper releases", async () => {

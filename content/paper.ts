@@ -40,7 +40,7 @@ export const socialCardAlt =
 export const dataset = {
   name: "UrbanPersona-60K",
   host: "Hugging Face",
-  url: "https://huggingface.co/datasets/Neemias/UrbanPersona-60K",
+  url: "https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K",
   licenseName: "CC BY 4.0",
   licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
   description:
