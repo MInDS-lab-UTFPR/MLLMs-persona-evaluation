@@ -7,7 +7,7 @@ const RESOURCES = [
   "https://arxiv.org/pdf/2604.28048",
   "https://arxiv.org/abs/2604.28048",
   "https://doi.org/10.1109/DCOSS-IoT69657.2026.00179",
-  "https://github.com/neemiasbsilva/mllm-persona-evaluation",
+  "https://github.com/neemiasbsilva/MLLMs-persona-evaluation",
   "https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K",
 ];
 
@@ -25,5 +25,5 @@ test("names the dataset where a reader meets the numbers", async () => {
 
   assert.ok(note, "expected a dataset note in the study section");
   assert.match(note[1], /UrbanPersona-60K/);
-  assert.match(note[1], /huggingface\.co\/datasets\/Neemias\/UrbanPersona-60K/);
+  assert.match(note[1], /huggingface\.co\/datasets\/MInDS-lab-UTFPR\/UrbanPersona-60K/);
 });

@@ -7,7 +7,7 @@ LLM Agents for Urban Sentiment Perception,”** IEEE DCOSS-IoT-UrbCom 2026.
 - Paper: <https://arxiv.org/abs/2604.28048>
 - PDF: <https://arxiv.org/pdf/2604.28048>
 - DOI: <https://doi.org/10.1109/DCOSS-IoT69657.2026.00179>
-- Code: <https://github.com/neemiasbsilva/mllm-persona-evaluation>
+- Code: <https://github.com/neemiasbsilva/MLLMs-persona-evaluation>
 - Dataset: <https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K> (CC BY 4.0)
 
 ## Project layout

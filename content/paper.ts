@@ -56,8 +56,8 @@ export const links = {
   abstract: `https://arxiv.org/abs/${arxivId}`,
   pdf: `https://arxiv.org/pdf/${arxivId}`,
   doi: `https://doi.org/${doi}`,
-  code: "https://github.com/neemiasbsilva/mllm-persona-evaluation",
-  codeName: "mllm-persona-evaluation",
+  code: "https://github.com/neemiasbsilva/MLLMs-persona-evaluation",
+  codeName: "MLLMs-persona-evaluation",
   dataset: dataset.url,
 };
 
