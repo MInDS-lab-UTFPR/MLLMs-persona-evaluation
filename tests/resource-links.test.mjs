@@ -6,7 +6,7 @@ import { readPage } from "./helpers/exported-site.mjs";
 const RESOURCES = [
   "https://arxiv.org/pdf/2604.28048",
   "https://arxiv.org/abs/2604.28048",
-  "https://doi.org/10.48550/arXiv.2604.28048",
+  "https://doi.org/10.1109/DCOSS-IoT69657.2026.00179",
   "https://github.com/neemiasbsilva/mllm-persona-evaluation",
   "https://huggingface.co/datasets/MInDS-lab-UTFPR/UrbanPersona-60K",
 ];

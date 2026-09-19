@@ -7,7 +7,7 @@ test("keeps the citation metadata pointing at the UrbCom paper", async () => {
   const html = await readPage();
 
   assert.match(html, /citation_arxiv_id" content="2604\.28048"/);
-  assert.match(html, /10\.48550\/arXiv\.2604\.28048/);
+  assert.match(html, /citation_doi" content="10\.1109\/DCOSS-IoT69657\.2026\.00179"/);
 
   const bibtex = await readExported("citation.bib");
   assert.match(bibtex, /@inproceedings\{urbcom26-neemias,/);

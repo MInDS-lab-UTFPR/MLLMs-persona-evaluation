@@ -18,7 +18,7 @@ export const siteSummary =
   "behavioral diversity in multimodal LLM agents annotating urban scenes.";
 
 export const arxivId = "2604.28048";
-export const doi = `10.48550/arXiv.${arxivId}`;
+export const doi = "10.1109/DCOSS-IoT69657.2026.00179";
 export const publicationDate = "2026-04-30";
 
 export const venue = {

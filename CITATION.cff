@@ -13,7 +13,7 @@ authors:
     given-names: "Thiago H"
 version: "arXiv:2604.28048"
 date-released: 2026-04-30
-doi: "10.48550/arXiv.2604.28048"
+doi: "10.1109/DCOSS-IoT69657.2026.00179"
 url: "https://arxiv.org/abs/2604.28048"
 preferred-citation:
   type: conference-paper
@@ -31,7 +31,7 @@ preferred-citation:
   collection-title: "Proc. of IEEE DCOSS-IoT-UrbCom"
   location:
     name: "Reykjavik, Iceland"
-  doi: "10.48550/arXiv.2604.28048"
+  doi: "10.1109/DCOSS-IoT69657.2026.00179"
   url: "https://arxiv.org/abs/2604.28048"
 references:
   - type: data
